@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Namana | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-group">
+                <button class="tn-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">TN</button>
+                <div class="logo-text">Portfolio</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">About Me</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#skills" class="nav-item">Technical Skills</a></li>
+                <li><a href="#experience" class="nav-item">Experience</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#certifications" class="nav-item">Certifications</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="dark-mode-toggle">Light Mode</button>
+                <button id="sidebar-open" class="sidebar-btn">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-group">
+                <button class="tn-btn">TN</button>
+                <div class="logo-text">Portfolio</div>
+            </div>
+            <button id="sidebar-close" class="close-btn">&times;</button>
+        </div>
+        <div class="sidebar-links">
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Technical Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="hero-section">
+            <div class="about-content about-bg-img">
+                <div class="profile-pic-container">
+                    <img src="/pics/profile-pic.jpg" alt="Tarun Namana" class="profile-pic">
+                </div>
+                <div class="about-text">
+                    <h1><span class="highlight-letter">T</span>ARUN <span class="highlight-letter">N</span>ΑΜΑΝΑ</h1>
+                    <br>
+                    <p><strong>Mail me : </strong> tarun.namana22@gmail.com</p>
+                    <br>
+                    <p class="objective"> Highly motivated B.Tech graduate with internship experience from Siemens and a strong foundation in C++, Python, and SQL, seeking a software engineering role to apply and upscale my problem-solving skills.</p>
+                    <div class="button-group">
+                        <a href="files/resume.pdf" target="_blank" class="resume-btn">RESUME <span>&#10142;</span></a>
+                        <a href="https://www.linkedin.com/in/tarun-namana-910492208/" target="_blank" class="linkedin-btn">LinkedIn </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>Bachelor of Technology, Computer Science, CMR Technical Campus</h3>
+                    <p>2020-2024</p>
+                    <p><strong>CGPA: 8.67/10</strong></p>
+                    <a href="files/BTech_full_memo.jpg" target="_blank" class="memo-btn">Memo</a>
+                </div>
+                <img src="/pics/BTech.webp" alt="BTech" class="card-right-img">
+            </div>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>Intermediate, MPC, Narayana Junior College</h3>
+                    <p>2018-2020</p>
+                    <p><strong>Percentage: 97.6%</strong></p>
+                    <a href="files/Inter_long_memo.jpg" target="_blank" class="memo-btn">Memo</a>
+                </div>
+                <img src="/pics/inter.jpg" alt="Inter" class="card-right-img">
+            </div>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>10th Class, Loyola Model High School</h3>
+                    <p>2017-2018</p>
+                    <p><strong>CGPA: 10/10</strong></p>
+                    <a href="files/10th_long_memo.jpg" target="_blank" class="memo-btn">Memo</a>
+                </div>
+                <img src="/pics/school.jpg" alt="School" class="card-right-img">
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="card">
+                <ul class="skills-aligned-list">
+                    <li><span class="skill-label">Programming Languages</span><span class="skill-separator">:</span><span class="skill-value">C, C++, Python</span></li>
+                    <li><span class="skill-label">Web Development</span><span class="skill-separator">:</span><span class="skill-value">HTML, CSS, JavaScript</span></li>
+                    <li><span class="skill-label">Database Management</span><span class="skill-separator">:</span><span class="skill-value">MySQL</span></li>
+                    <li><span class="skill-label">Version Control</span><span class="skill-separator">:</span><span class="skill-value">Git, GitHub, Bitbucket</span></li>
+                    <li><span class="skill-label">Project Management Tools</span><span class="skill-separator">:</span><span class="skill-value">JIRA, Confluence</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>SDE Intern, Siemens EDA (India) Private Limited</h3>
+                    <p class="date">Jun 2023 - Sep 2024</p>
+                    <ul>
+                        <li>Worked under QPE DevOps team to setup Jenkins pipelines and automate reports.</li>
+                        <li>Resolved several functionality related bugs in Capital Diff-kit application.</li>
+                        <li>Utilized JIRA to document software bugs and streamlined resolution workflows.</li>
+                    </ul>
+                </div>
+                <img src="/pics/siemens.webp" alt="Siemens" class="card-right-img">
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>Stock Market Analysis using Supervised Machine Learning</h3>
+                    <p>Developed a predictive model using Python and Jupyter Notebook that identifies patterns and enhances market prediction accuracy.</p>
+                    <a href="https://github.com/Strikz22/Stock-Market-Analysis-using-Supervised-Machine-Learning" class="check-project-btn" target="_blank">Check project</a>
+                </div>
+                <img src="/pics/stock.webp" alt="Stock Project" class="card-right-img">
+            </div>
+            <div class="card split-card">
+                <div class="card-text">
+                    <h3>Portfolio</h3>
+                    <p>Designed and developed a personal portfolio website using HTML and CSS to showcase professional information.</p>
+                    <a href="https://github.com/Strikz22/Portfolio" class="check-project-btn" target="_blank">Check project</a>
+                </div>
+                <img src="/pics/portfolio.webp" alt="Portfolio" class="card-right-img">
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2>Certifications and Activities</h2>
+            <div class="card">
+                <ul class="cert-list">
+                    <li>Google's Big Data Analytics in Coursera</li>
+                    <li>Certification on C, Python by Spoken Tutorial (IIT Bombay)</li>
+                    <li>Hackerrank Certificate on Problem Solving and Python</li>
+                    <li>Infosys Springboard Certification on Python and Machine Learning</li>
+                    <li>Selected for final round in TechHunt2K22 Hackathon</li>
+                    <li>Solved 250+ problems on CodeChef and acquired 2 gold badges</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Dark Mode Logic
+        const toggle = document.getElementById('dark-mode-toggle');
+        toggle.addEventListener('click', () => {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            toggle.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+        });
+
+        // Sidebar Logic
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('sidebar-overlay');
+        const openBtn = document.getElementById('sidebar-open');
+        const closeBtn = document.getElementById('sidebar-close');
+
+        const toggleSidebar = (state) => {
+            sidebar.classList.toggle('active', state);
+            overlay.classList.toggle('active', state);
+        };
+
+        openBtn.addEventListener('click', () => toggleSidebar(true));
+        closeBtn.addEventListener('click', () => toggleSidebar(false));
+        overlay.addEventListener('click', () => toggleSidebar(false));
+
+        // Scroll Active Link Logic
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.nav-item');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navItems.forEach(item => {
+                        item.classList.toggle('active-nav', item.getAttribute('href').substring(1) === entry.target.id);
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+        sections.forEach(s => observer.observe(s));
+    </script>
+</body>
+</html>
